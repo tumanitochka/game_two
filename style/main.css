@@ -9,6 +9,7 @@ html,
 body {
     background-image: url(../style/img/bg.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     width: 800px;
     height: 1280px;
     margin: 0 auto;
@@ -29,7 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 710px;
-    margin: 0 auto;
+    margin: -3rem auto;
 
 }
 
@@ -254,7 +255,7 @@ button {
     }
   }
 
-.navigate {
+.center {
     display: flex;
     align-items: center;
     width: 670px;
@@ -263,12 +264,12 @@ button {
     
 }
 
-.b {
+.a {
     position: relative;
     left: -3rem;
 }
 
-.c {
+.b {
     position: relative;
     left: -5.5rem;
 }
@@ -276,4 +277,50 @@ button {
 .row {
     display: flex;
     align-items: center;
+}
+
+.navigate {
+    background-image: url(../style/img/bg.png);
+    background-repeat: no-repeat;
+    width: 747px;
+    height: 392px;
+    margin-top: 9rem;
+}
+
+.navigate {
+    display: flex;
+}
+
+.i-item {
+    position: relative;
+    top: 3.4rem;
+    left: .7rem;
+}
+
+.i-normal {
+    position: relative;
+    top: 2.7rem;
+    left: .9rem;
+}
+
+.i-start {
+    position: relative;
+    right: 1.7rem;
+}
+
+.i-with {
+    position: relative;
+    right: 4rem;
+}
+
+.i-solo {
+    position: relative;
+    top: 4.5rem;
+    right: 8.7rem;
+}
+
+.i-team {
+    position: relative;
+    top: 4.6rem;
+    right: 7rem;
 }
