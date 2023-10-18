@@ -104,8 +104,7 @@ header {
 
 main {
     width: 670px;
-    margin: -3rem auto;
-    height: calc(100% - 188px - 160px);
+    margin: -2rem auto 100rem;
 }
 
 .parent {
@@ -114,6 +113,7 @@ main {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    margin-top: -3.5rem;
 }
 
 .div1 {
@@ -261,8 +261,6 @@ button {
     align-items: center;
     width: 670px;
     margin: -8rem auto;
-
-    
 }
 
 .a {
@@ -285,7 +283,8 @@ button {
     background-repeat: no-repeat;
     width: 747px;
     height: 392px;
-    margin-top: 9rem;
+    margin-top: 8rem;
+    margin-bottom: 100rem;
 }
 
 .navigate {
