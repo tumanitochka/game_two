@@ -31,7 +31,7 @@ header {
     align-items: center;
     width: 710px;
     margin: -3rem auto;
-
+    height: 188px;
 }
 
 .item {
@@ -105,6 +105,7 @@ header {
 main {
     width: 670px;
     margin: -3rem auto;
+    height: calc(100% - 188px - 160px);
 }
 
 .parent {
@@ -323,4 +324,20 @@ button {
     position: relative;
     top: 4.6rem;
     right: 7rem;
+}
+
+/* ПОДВАЛ */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-image: url(../style/img/foot.png);
+    background-repeat: no-repeat;
+    width: 749px;
+    height: 129px;
+    padding: 1rem;
+    position: fixed;
+    bottom: -2rem;
 }
