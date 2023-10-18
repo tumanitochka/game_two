@@ -14,6 +14,14 @@ body {
     margin: 0 auto;
 }
 
+a:hover {
+    filter: brightness(1.3);
+}
+
+a:active {
+    filter: brightness(1);
+}
+
 /* ШАПКА */
 
 header {
@@ -95,7 +103,7 @@ header {
 
 main {
     width: 670px;
-    margin: 0 auto;
+    margin: -3rem auto;
 }
 
 .parent {
@@ -245,3 +253,27 @@ button {
       height: 150%;
     }
   }
+
+.navigate {
+    display: flex;
+    align-items: center;
+    width: 670px;
+    margin: -8rem auto;
+
+    
+}
+
+.b {
+    position: relative;
+    left: -3rem;
+}
+
+.c {
+    position: relative;
+    left: -5.5rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
