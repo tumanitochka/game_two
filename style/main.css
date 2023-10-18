@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    transition: all .5s ease;
+}
+
+html,
+body {
+    background-image: url(../style/img/bg.jpg);
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 1280px;
+    margin: 0 auto;
+}
+
+/* ШАПКА */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 710px;
+    margin: 0 auto;
+
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b2a16;
+    width: 170px;
+    height: 50px;
+    border-bottom: 5px solid #ccbaa2;
+    border-top: 5px solid #ccbaa2;
+    font-size: 1.5rem;
+    border-radius: 40px 0 0 30px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.plus {
+    position: relative;
+    top: -3.9rem;
+    left: 8rem;
+    background-color: #3b2a16;
+    border: 5px solid #ccbaa2;
+    border-radius: 100%;
+    height: 3rem;
+    width: 3rem;
+    padding: 5px;
+    display: flex;
+}
+
+.runa:before {
+    content: url(../style/img/runa.png);
+    position: relative;
+    left: -1.5rem;
+    top: 3.5rem;
+}
+
+.money::before {
+    content: url(../style/img/money.png);
+    position: relative;
+    left: -1.5rem;
+    top: 3.5rem;
+
+}
+
+.rubin::before {
+    content: url(../style/img/rubin.png);
+    position: relative;
+    left: -1.5rem;
+    top: 3.5rem;
+}
+
+.white {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.gold {
+    color: gold;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.coral {
+    color: coral;
+    text-shadow: 1px 1px 1px #000;
+}
+
+/* ТЕЛО */
+
+main {
+    width: 670px;
+    margin: 0 auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 2;
+    background-image: url(../style/img/block-one.png);
+    background-repeat: no-repeat;
+    width: 404px;
+    height: 534px;
+    z-index: 0;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);  
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(../style/img/block-two.png);
+    background-repeat: no-repeat;
+    width: 292px;
+    height: 265px;
+    margin-top: 21px;
+
+    & span {
+        color: #706959;
+        font-size: 2rem;
+        position: relative;
+        left: 5.5rem;
+        top: .6rem;
+        font-weight: 800;
+    }
+}
+
+.div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(../style/img/block-three.png);
+    background-repeat: no-repeat;
+    width: 307px;
+    height: 243px;
+}
+
+.label {
+    background-color: #4e4b3a;
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: -35.5rem;
+    right: 19.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    & img {
+        filter: grayscale(1);
+    }
+
+    & img:first-child {
+        filter: grayscale(0);
+    }
+}
+
+.lavel {
+    background-color: #4e4b3a;
+    height: 50px;
+    width: 155px;
+    position: relative;
+    top: -34.8rem;
+    right: -7.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    & p {
+        font-size: 2rem;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 2px 2px 2px rgba(206,89,55,0);
+        color: rgb(220,145,52);
+        color: linear-gradient(90deg, rgba(220,145,52,1) 0%, rgba(247,206,78,1) 70%);
+    }
+}
+
+.name {
+    background-color: #4e4b3a;
+    height: 50px;
+    width: 220px;
+    position: relative;
+    top: -9rem;
+    right: 19.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    & p {
+        font-size: 2rem;
+        text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 2px 2px 2px rgba(206,89,55,0);
+        color: rgb(220,145,52);
+        color: linear-gradient(90deg, rgba(220,145,52,1) 0%, rgba(247,206,78,1) 70%);
+    }
+}
+
+.pers {
+    position: relative;
+    top: 9.5rem;
+    left: 7rem;
+}
+
+button {
+    background: none;
+    border-style: none;
+    cursor: pointer;
+    position: relative;
+    top: 13rem;
+    left: 3rem;
+}
