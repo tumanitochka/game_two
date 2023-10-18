@@ -219,3 +219,29 @@ button {
     top: 13rem;
     left: 3rem;
 }
+
+.cub {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.animal-cub  {
+    animation-name: slidein;
+    animation-duration: 1.4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slidein {
+    0% {
+      margin-top: 0%;
+        height: 100%;
+    }
+  
+    75% {
+      margin-top: 10px;
+      height: 150%;
+    }
+  }
